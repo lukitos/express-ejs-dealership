@@ -2,7 +2,7 @@
   "name": "ejs-project-1",
   "version": "1.0.0",
   "description": "## Overview You were hired by a software consulting firm that is building an inventory management website and API for a used car dealership. This API must have the following endpoints: * Get all vehicles * Get one vehicle * Add one vehicle * Edit one vehicle * Delete one vehicle",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "cors": "^2.8.3",
+    "ejs": "^2.5.6",
     "express": "^4.15.3",
     "lokijs": "^1.5.0"
   }

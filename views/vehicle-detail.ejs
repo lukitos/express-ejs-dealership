@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Edit Vehicle</title>
+  </head>
+  <body>
+    <h2>Edit a vehicle</h2>
+    <form action="/vehicles/edit" method="POST">
+      <label for="vin">VIN:</label>
+      <input type="text" name="vin" value="<%= vehicle.vin %>"><br>
+      <label for="make">Make:</label>
+      <input type="text" name="make" value="<%= vehicle.make %>"><br>
+      <label for="model">Model:</label>
+      <input type="text" name="model" value="<%= vehicle.model %>"><br>
+      <label for="year">Year:</label>
+      <input type="text" name="year" value="<%= vehicle.year %>"><br><br>
+      <button type="submit" name="edit-btn">Submit</button>
+    </form>
+  </body>
+</html>
